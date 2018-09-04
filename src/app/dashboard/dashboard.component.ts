@@ -41,4 +41,8 @@ export class DashboardComponent implements OnInit, AfterViewInit {
         // Step 4: 渲染图表
         chart.render();
     }
+
+    locationToUser() {
+        window.location.href = '/user';
+    }
 }
