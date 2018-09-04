@@ -1,1 +1,11 @@
-<div>this is login</div>
+<div nz-form [nzLayout]="'inline'">
+    <nz-form-item>
+        <input nz-input [(ngModel)]="userName" placeholder="请输入用户名">
+    </nz-form-item>
+    <nz-form-item>
+        <input nz-input type="password" [(ngModel)]="password" placeholder="密码为：admin">
+    </nz-form-item>
+    <nz-form-item>
+        <button nz-button nzType="primary" (click)="login()">登陆</button>
+    </nz-form-item>
+</div>
