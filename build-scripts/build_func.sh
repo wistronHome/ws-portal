@@ -4,7 +4,8 @@ cd ~/Documents/angular6/ws-portal/
 
 git pull
 
-yarn
+# yarn
+yarn add ws-common@latest
 
 npm run package
 

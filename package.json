@@ -25,7 +25,7 @@
         "core-js": "^2.5.4",
         "ng-zorro-antd": "^1.4.1",
         "rxjs": "^6.0.0",
-        "ws-common": "^0.0.3",
+        "ws-common": "^0.0.14",
         "zone.js": "~0.8.26"
     },
     "devDependencies": {

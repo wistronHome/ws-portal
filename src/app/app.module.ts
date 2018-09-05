@@ -6,7 +6,7 @@ import {AppComponent} from './app.component';
 import {NgZorroAntdModule} from 'ng-zorro-antd';
 import {RouterModule} from "@angular/router";
 import {ROUTER_CONFIG} from "./app.routes";
-import {WsCommonModule} from "ws-common";
+import {I18nService, WsCommonModule} from "ws-common";
 
 @NgModule({
     declarations: [
@@ -18,7 +18,9 @@ import {WsCommonModule} from "ws-common";
         WsCommonModule,
         RouterModule.forRoot(ROUTER_CONFIG)
     ],
-    providers: [],
+    providers: [
+        {provide: I18nService}
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {
