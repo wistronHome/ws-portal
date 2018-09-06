@@ -4,6 +4,7 @@
 
 import {AfterViewInit, Component, OnInit} from "@angular/core";
 import G2 from '@antv/g2'
+import {NavigationService} from "ws-common";
 
 @Component({
     selector: 'ws-portal-dashboard',
@@ -20,7 +21,9 @@ export class DashboardComponent implements OnInit, AfterViewInit {
         { genre: 'Other', sold: 150 }
     ];
 
-    constructor() {
+    constructor(
+        private $navigationService: NavigationService
+    ) {
 
     }
 
@@ -43,6 +46,6 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     }
 
     locationToUser() {
-        window.location.href = '/user';
+        this.$navigationService.navigate('user/user-manage', 'user', {id: 12345, name: 'guanyj'});
     }
 }
