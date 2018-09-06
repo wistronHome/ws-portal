@@ -6645,9 +6645,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws-common@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/ws-common/-/ws-common-0.0.14.tgz#c138a8ccc62d9241e7354b8777b125f2f97cb0e9"
+ws-common@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.npmjs.org/ws-common/-/ws-common-0.0.16.tgz#2a4820a6e366622863adaa5b48c87b087bb86bfa"
   dependencies:
     "@angular/animations" "^6.1.0"
     "@angular/common" "^6.1.0"
@@ -6659,6 +6659,7 @@ ws-common@^0.0.14:
     "@angular/platform-browser-dynamic" "^6.1.0"
     "@angular/router" "^6.1.0"
     core-js "^2.5.4"
+    lodash "^4.17.10"
     ng-zorro-antd "^1.4.1"
     rxjs "^6.0.0"
     tslib "^1.9.0"
