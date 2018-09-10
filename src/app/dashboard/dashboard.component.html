@@ -1,12 +1,14 @@
 <div class="dashboard-wrap">
     <button nz-button (click)="locationToUser()">跳转到用户管理</button>
     <div nz-row>
-        <nz-card nz-col [nzSpan]="8" nzTitle="$ Profit" >
-            <div id="chart"></div>
-        </nz-card>
+        <!--<nz-card nz-col [nzSpan]="8" nzTitle="$ Profit" >-->
+            <!--<div id="chart"></div>-->
+        <!--</nz-card>-->
 
-        <nz-card nz-col [nzSpan]="8" nzTitle="$ Profit" >
-            <div id="111"></div>
-        </nz-card>
+        <!--<nz-card nz-col [nzSpan]="8" nzTitle="$ Profit" >-->
+            <!--<div id="111"></div>-->
+        <!--</nz-card>-->
+
+        <ws-histogram [data]="data" [title]="'$  Profit'"></ws-histogram>
     </div>
 </div>
