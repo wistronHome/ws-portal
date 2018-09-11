@@ -20,6 +20,20 @@ export class DashboardComponent implements OnInit, AfterViewInit {
         { genre: 'Shooter', sold: 350 },
         { genre: 'Other', sold: 150 }
     ];
+    data2 = [
+        { month: 0, tem: 7, city: 'tokyo' },
+        { month: 1, tem: 6.9, city: 'tokyo' },
+        { month: 2, tem: 9.5, city: 'tokyo' },
+        { month: 3, tem: 14.5, city: 'tokyo' },
+        { month: 4, tem: 18.2, city: 'tokyo' },
+        { month: 5, tem: 21.5, city: 'tokyo' },
+        { month: 6, tem: 25.2, city: 'tokyo' },
+        { month: 7, tem: 26.5, city: 'tokyo' },
+        { month: 8, tem: 23.3, city: 'tokyo' },
+        { month: 9, tem: 18.3, city: 'tokyo' },
+        { month: 10, tem: 13.9, city: 'tokyo' },
+        { month: 11, tem: 9.6, city: 'tokyo' }
+    ];
 
     constructor(
         private $navigationService: NavigationService

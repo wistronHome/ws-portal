@@ -14,7 +14,7 @@ export class WsHistogramComponent implements AfterViewInit {
         const chart = new G2.Chart({
             container: 'chart',
             width: 380,
-            height: 240
+            height: 240,
         });
         // Step 2: 载入数据源
         chart.source(this.data);

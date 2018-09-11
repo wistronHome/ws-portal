@@ -1,8 +1,9 @@
+///<reference path="ws-charts/ws-histogram.component.ts"/>
 import {NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
-import {WsHistogramComponent} from './ws-charts';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {NgZorroAntdModule} from 'ng-zorro-antd';
+import {WsDiscountingComponent, WsHistogramComponent} from './ws-charts';
 
 
 @NgModule({
@@ -13,11 +14,13 @@ import {NgZorroAntdModule} from 'ng-zorro-antd';
         NgZorroAntdModule
     ],
     declarations: [
-        WsHistogramComponent
+        WsHistogramComponent,
+        WsDiscountingComponent
     ],
     providers: [],
     exports: [
-        WsHistogramComponent
+        WsHistogramComponent,
+        WsDiscountingComponent
     ],
     entryComponents: []
 })
